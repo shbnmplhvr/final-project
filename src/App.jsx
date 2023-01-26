@@ -29,9 +29,9 @@ function App() {
 
 
   useEffect(() => {
-    axios("http://localhost:3000/disorders").then(i => setDisorders(i.data))
-    axios("http://localhost:3000/tracks").then(i => setTracks(i.data))
-    axios("http://localhost:3000/trackItems").then(i => setTrackItems(i.data))
+    axios("https://my-server-0kex.onrender.com/disorders").then(i => setDisorders(i.data))
+    axios("https://my-server-0kex.onrender.com/tracks").then(i => setTracks(i.data))
+    axios("https://my-server-0kex.onrender.com/trackItems").then(i => setTrackItems(i.data))
   }, [])
 
 
@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-         
+
       <AppContext.Provider value={{
         trackId, setTrackId, date, setDate,
         disorders, setDisorders, trackItems, tracks, setTrackItems, setTracks, disorder, setdisorder
@@ -74,7 +74,7 @@ function App() {
               </li>
             </ul>
           </nav>
-          
+
 
           <Routes>
             <Route path="/home" element={<Home />} />
