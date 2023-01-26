@@ -1,0 +1,79 @@
+[
+  {
+  "id": 1,
+  "disorder": "diabetes",
+  "checkList":
+      {"oralMedication": "",
+      "insulinInjection": "",
+      "bloodSugerMonituring": "",
+      "noSuger": "",
+      "noFat": "",
+      "noCarb": "",
+      "noSmocke": "",
+      "noAlkohole": ""},
+  "evaluation":
+    {
+    "bodyPain": "",
+    "blurredVision": "",
+    "Headache": "",
+    "chestpain": "",
+    "IntenceHunger": "",
+    "IntenceThirst": "",
+    "weight": "",
+    "Ftigue": "",
+    "urination": ""
+  }
+},
+{
+  "id": 2,
+  "disorder": "hypertension",
+  "checkList":
+    {
+      "oralMedication": "",
+      "noSuger": "",
+      "noFat": "",
+      "noCarb": "",
+      "noSmocke": "",
+      "noAlkohole": ""
+      },
+  "evaluation": {
+    "bodyPain": "",
+    "irregularHearthbeat": "",
+    "headache": "",
+    "chestpain": "",
+    "visionProblem": "",
+    "difficultyBreathing": "",
+    "Ftigue": "",
+    "bloodInUrination": "",
+    "dizziness": "",
+    "confusion": "",
+    "Nausia": ""
+  }
+},
+{
+  "id": 3,
+  "disorder": "obesity",
+  "checkList":
+    {
+      "oralMedication": "",
+      "noSuger": "",
+      "noFat": "",
+      "noCarb": "",
+      "noSmocke": "",
+      "noAlkohole": ""
+    },
+  "evaluation":  {
+    "jointPain": "",
+    "feelingSick2": "",
+    "sleepProblem": "",
+    "breathlessness": "",
+    "depression": "",
+    "weight": "",
+    "Ftigue": "",
+    "hairLoss": "",
+    "menstrualChange": "",
+    "IntenceHunger": ""
+  }
+}
+]
+
